@@ -15,11 +15,11 @@ body {
 .card {
   border: 2px solid #b8c1ec; /* soft pastel lavender */
   background: #ffffff;
-  box-shadow: 6px 6px 0 #e0e4f4; /* light shadow */
+  box-shadow: 6px 6px 0 #e0e4f4; /* light offset shadow */
   max-width: 520px;
   width: 100%;
   padding: 24px;
-  border-radius: 8px; /* square-ish, but not harsh */
+  border-radius: 0; /* <-- square corners */
 }
 
 .card h1, 
@@ -47,7 +47,7 @@ a {
   margin: 8px 0;
   padding: 10px 14px;
   border: 1px solid #b8c1ec;
-  border-radius: 6px;
+  border-radius: 0; /* <-- square corners */
   text-decoration: none;
   color: #5d5fef; /* soft blue accent */
   font-size: 0.9rem;
